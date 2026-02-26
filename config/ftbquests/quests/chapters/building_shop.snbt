@@ -1,0 +1,296 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: true
+	default_quest_shape: "square"
+	default_quest_size: 1.5d
+	default_repeatable_quest: true
+	filename: "building_shop"
+	group: "0CDAD17E7725D326"
+	icon: "kubejs:constructor"
+	id: "315E4C434B3E7332"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["140DF78B84BEDD94"]
+			description: [
+				"This is the &dBuilding Shop&r!"
+				""
+				"Here you can buy more Buildings using different Ressources once you unlock them by progressing."
+			]
+			id: "06CEF0371CA86B29"
+			rewards: [{
+				id: "23496009D53B42FB"
+				item: "extendedcrafting:ultimate_table"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "660CEECC9702E415"
+				title: "Building Shop"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"34EC7216F0CBB2A9"
+				"06CEF0371CA86B29"
+			]
+			icon: "kubejs:equipment_workshop"
+			id: "2EC94EEC9DAAD9EF"
+			rewards: [{
+				id: "018358EB442999A7"
+				item: "extendedcrafting:ultimate_table"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 6L
+					id: "6CC5C4E333F98545"
+					item: { Count: 6, id: "kubejs:iron_plate" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "726020E25F730558"
+					item: { Count: 4, id: "kubejs:iron_rod" }
+					type: "item"
+				}
+			]
+			title: "Equipment Workshop"
+			x: -6.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["06CEF0371CA86B29"]
+			icon: "kubejs:storage_container"
+			id: "11A6EB1F9160DAC0"
+			rewards: [{
+				id: "7F2CBFCCCDA5D626"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:gold_barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 10L
+					id: "779412A23BB2FD92"
+					item: { Count: 10, id: "kubejs:iron_plate" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "35A93ED3C28C71CC"
+					item: { Count: 10, id: "kubejs:iron_rod" }
+					type: "item"
+				}
+			]
+			title: "Storage Container"
+			x: 3.75d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"06CEF0371CA86B29"
+				"0221884CA5CF0D78"
+			]
+			icon: "kubejs:smelter"
+			id: "7114C7531B2AED11"
+			rewards: [{
+				id: "7B390A31296C7669"
+				item: "kubejs:smelter"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "4E4F5E7F77D5A531"
+					item: { Count: 8, id: "kubejs:wire" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "52DA309752E4A56A"
+					item: { Count: 5, id: "kubejs:iron_rod" }
+					type: "item"
+				}
+			]
+			title: "Smelter"
+			x: -3.75d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"06CEF0371CA86B29"
+				"059E058B76AAD4A4"
+			]
+			hide_lock_icon: true
+			icon: "kubejs:constructor"
+			id: "47C9CE375505C50B"
+			rewards: [{
+				id: "4C9645121171AAC9"
+				item: "kubejs:constructor"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "538B87062CB5ADBA"
+					item: { Count: 2, id: "kubejs:reinforced_iron_plate" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7AA270F75911270A"
+					item: { Count: 8, id: "kubejs:cable" }
+					type: "item"
+				}
+			]
+			title: "Constructor"
+			x: -1.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["06CEF0371CA86B29"]
+			icon: "kubejs:miner_mk.1"
+			id: "0FDAE3532EE692C1"
+			rewards: [{
+				id: "2BAAF62E7B1E51E5"
+				item: "kubejs:miner_mk.1"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 10L
+					id: "3C1453F038112B18"
+					item: { Count: 10, id: "kubejs:iron_plate" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "2BECE17B8DC57C45"
+					item: "kubejs:concrete"
+					type: "item"
+				}
+				{
+					id: "413150CF8926BCDC"
+					item: "kubejs:portable_miner"
+					type: "item"
+				}
+			]
+			title: "Miner Mk.1"
+			x: 3.75d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"492291E72E363978"
+				"06CEF0371CA86B29"
+			]
+			icon: "kubejs:conveyor_belt_mk.1"
+			id: "0A2590DE1097C852"
+			rewards: [{
+				id: "7AA844394A2A72FB"
+				item: "kubejs:conveyor_belt_mk.1"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6667EBDF300D2355"
+				item: "kubejs:iron_plate"
+				type: "item"
+			}]
+			title: "Conveyor Belt Mk.1"
+			x: 1.25d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"06CEF0371CA86B29"
+				"6C9CE557624843F7"
+			]
+			icon: "kubejs:space_elevator"
+			id: "0632EE8F8FAA66C5"
+			rewards: [{
+				id: "5564C43B5462AA9E"
+				item: "kubejs:space_elevator"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 500L
+					id: "5C7B10801B110852"
+					item: { Count: 500, id: "kubejs:concrete" }
+					type: "item"
+				}
+				{
+					count: 250L
+					id: "19DC99A4678C27A2"
+					item: { Count: 250, id: "kubejs:iron_plate" }
+					type: "item"
+				}
+				{
+					count: 400L
+					id: "55CD75EE7453FEE0"
+					item: { Count: 400, id: "kubejs:iron_rod" }
+					type: "item"
+				}
+				{
+					count: 1500L
+					id: "3108C6F6C78CB8C5"
+					item: { Count: 1500, id: "kubejs:wire" }
+					type: "item"
+				}
+			]
+			title: "Space Elevator"
+			x: 6.25d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"06CEF0371CA86B29"
+				"6C9CE557624843F7"
+			]
+			icon: "kubejs:biomass_burner"
+			id: "1417C94FFAD1FF48"
+			rewards: [{
+				id: "7AF0A1BF771E6D6B"
+				item: "kubejs:biomass_burner"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 15L
+					id: "6597888021E0A5B9"
+					item: { Count: 15, id: "kubejs:iron_plate" }
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "7FA142982EC862DF"
+					item: { Count: 15, id: "kubejs:iron_rod" }
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "0E40686F480A40CA"
+					item: { Count: 25, id: "kubejs:wire" }
+					type: "item"
+				}
+			]
+			title: "Biomass Burner"
+			x: 6.25d
+			y: 4.5d
+		}
+	]
+	title: "Building Shop"
+}

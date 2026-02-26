@@ -1,0 +1,12 @@
+ServerEvents.recipes(e => {
+    e.remove({mod:'sophisticatedstorage'})
+    e.remove({id:'create:pressing/iron_ingot'})
+    e.remove({mod:'extendedcrafting'})
+    e.remove({id:'thermal:tools/satchel'})
+    e.remove({id:'sophisticatedbackpacks:backpack'})
+    e.remove({id:'sophisticatedbackpacks:copper_backpack'})
+    e.remove({id:'sophisticatedbackpacks:iron_backpack'})
+    e.remove({id:'sophisticatedbackpacks:gold_backpack'})
+    e.remove({id:'sophisticatedbackpacks:diamond_backpack'})
+    e.remove({id:'sophisticatedbackpacks:netherite_backpack'})
+})

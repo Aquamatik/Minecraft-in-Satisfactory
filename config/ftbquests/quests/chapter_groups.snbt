@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "5E346EC672D56429", title: "Introduction" }
+		{ id: "29804F0143952BC7", title: "Milestones" }
+		{ id: "7E69F5895CCB1121", title: "Space Elevator" }
+		{ id: "0CDAD17E7725D326", title: "Building Shop" }
+	]
+}

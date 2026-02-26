@@ -1,0 +1,11 @@
+ServerEvents.tags('fluid', e => {
+    e.add("forge:fluid",'kubejs:crude_oil')
+    e.add("forge:fluid",'kubejs:heavy_oil_residue')
+    e.add("forge:fluid",'kubejs:fuel')
+    e.add("forge:fluid",'kubejs:alumina_solution')
+    e.add("forge:fluid",'kubejs:sulfuric_acid')
+    e.add("forge:fluid",'kubejs:nitric_acid')
+    e.add("forge:fluid",'kubejs:nitrogen_gas')
+    e.add("forge:fluid","kubejs:dark_matter_residue")
+    e.add("forge:fluid",'kubejs:excited_photonic_matter')
+})

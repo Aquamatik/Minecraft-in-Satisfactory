@@ -1,0 +1,48 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:pressure_conversion_cube"
+  },
+  "loops": 200,
+  "results": [
+    {
+      "count": 1,
+      "item": "kubejs:nuclear_pasta"
+    }
+  ],
+  "sequence": [
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "kubejs:incomplete_nuclear_pasta"
+    },
+    {
+      "item": "kubejs:copper_powder"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:incomplete_nuclear_pasta"
+    }
+]
+    },
+    {
+      "type": "create_new_age:energising",
+      "energy_needed": 50000,
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_nuclear_pasta"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_nuclear_pasta"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:incomplete_nuclear_pasta"
+  }
+}

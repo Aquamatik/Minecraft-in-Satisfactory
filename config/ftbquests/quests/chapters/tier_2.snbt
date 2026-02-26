@@ -1,0 +1,113 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	default_quest_size: 2.0d
+	filename: "tier_2"
+	group: "29804F0143952BC7"
+	icon: "kubejs:rotor"
+	id: "1AEF83C90298899E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7C93238F86396DCB"]
+			description: [
+				"This Tier gives you the ability to create more complicated parts like the Rotor, Modular Frame and the first Part for the Space Elevator,"
+				"the &4Smart Plating&r."
+				""
+				"Only by using the new technology, the \"Assembler\", can these parts be made."
+			]
+			icon: "kubejs:smart_plating"
+			id: "2594AA82BDE121DD"
+			tasks: [
+				{
+					count: 200L
+					id: "07A6358D0F88EA35"
+					item: { Count: 200, id: "kubejs:cable" }
+					type: "item"
+				}
+				{
+					count: 200L
+					id: "4FA8D885490D3E7F"
+					item: { Count: 200, id: "kubejs:iron_rod" }
+					type: "item"
+				}
+				{
+					count: 500L
+					id: "0DA8A44DB01644F6"
+					item: { Count: 500, id: "kubejs:screws" }
+					type: "item"
+				}
+				{
+					count: 300L
+					id: "05DB70A1DA532B95"
+					item: { Count: 300, id: "kubejs:iron_plate" }
+					type: "item"
+				}
+			]
+			title: "Part Assembly"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2594AA82BDE121DD"]
+			description: ["This axe can be used to instantly mine entire trees. Kinda like a Chainsaw if you think about it."]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "465201EAE0DE6FA8"
+			rewards: [{
+				id: "39C88A04FC41BBD9"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_axe"
+					tag: {
+						Damage: 0
+						Unbreakable: 1
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 500L
+					id: "69E9B12DF4FC72B1"
+					item: { Count: 500, id: "kubejs:screws" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "42673BAEADA58057"
+					item: { Count: 100, id: "kubejs:cable" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "2E85E18306324743"
+					item: { Count: 100, id: "kubejs:concrete" }
+					type: "item"
+				}
+			]
+			title: "Obstacle Clearing"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0C8DD6F5281ADD4D"]
+			description: ["This is the last Tier of Upgrades before needing to supply the Space Elevator with the Project Assembly Parts."]
+			id: "7C93238F86396DCB"
+			tasks: [{
+				id: "5F91FDB9A962FE07"
+				type: "checkmark"
+			}]
+			title: "Tier 2 Info"
+			x: 0.0d
+			y: -2.5d
+		}
+	]
+	title: "Tier 2"
+}

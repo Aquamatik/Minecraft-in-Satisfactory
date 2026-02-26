@@ -1,0 +1,233 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	default_quest_size: 2.0d
+	filename: "tier_1"
+	group: "5E346EC672D56429"
+	icon: "kubejs:iron_plate"
+	id: "0CFACCD4463F70CD"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["03CA4609FF96C7D0"]
+			description: [
+				"With the help of the Equipment Workshop you are able to craft yourself better gear and helpful things."
+				""
+				"By pressing on \"Building Shop\" below you are brought to the quest page to buy more of the following buildings."
+				""
+				"{ \"text\": \"Building Shop\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"06CEF0371CA86B29\" }, \"color\": \"#FF55FF\" }"
+			]
+			icon: "kubejs:equipment_workshop"
+			id: "34EC7216F0CBB2A9"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				count: 10L
+				id: "762042AC992FD455"
+				item: "kubejs:iron_rod"
+				type: "item"
+			}]
+			title: "HUB Upgrade 1"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34EC7216F0CBB2A9"]
+			description: [
+				"The second Upgrade of your adventure."
+				""
+				"It most notably unlocks the smelter which is a big upgrade to the vanilla furnace!"
+				""
+				"{ \"text\": \"Building Shop\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"06CEF0371CA86B29\" }, \"color\": \"#FF55FF\" }"
+			]
+			icon: "kubejs:smelter"
+			id: "0221884CA5CF0D78"
+			tasks: [
+				{
+					count: 20L
+					id: "12335C5E3C1A7084"
+					item: "kubejs:iron_rod"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "77A3E22D3FA22557"
+					item: "kubejs:iron_plate"
+					type: "item"
+				}
+			]
+			title: "HUB Upgrade 2"
+			x: -1.25d
+			y: 1.75d
+		}
+		{
+			dependencies: ["0221884CA5CF0D78"]
+			description: [
+				"Your third Upgrade."
+				""
+				"By completing given requirements you gain access to the Constructor to make many more parts!"
+				""
+				"{ \"text\": \"Building Shop\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"06CEF0371CA86B29\" }, \"color\": \"#FF55FF\" }"
+			]
+			icon: "kubejs:constructor"
+			id: "059E058B76AAD4A4"
+			tasks: [
+				{
+					count: 20L
+					id: "0A68FA35E17FA1DB"
+					item: "kubejs:iron_plate"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "6C443ABCAF49DB44"
+					item: "kubejs:iron_rod"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "537EB0A106BBC9C2"
+					item: "kubejs:wire"
+					type: "item"
+				}
+			]
+			title: "HUB Upgrade 3"
+			x: 1.25d
+			y: 1.75d
+		}
+		{
+			dependencies: ["059E058B76AAD4A4"]
+			description: [
+				"Not a really big Upgrade but still the fourth one."
+				""
+				"You unlock Conveyor Belts to transport items automatically for you."
+				""
+				"{ \"text\": \"Building Shop\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"06CEF0371CA86B29\" }, \"color\": \"#FF55FF\" }"
+			]
+			icon: "kubejs:conveyor_belt_mk.1"
+			id: "492291E72E363978"
+			tasks: [
+				{
+					count: 75L
+					id: "52687F8C8C83C51A"
+					item: "kubejs:iron_plate"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "1241EBA6BFA35D4C"
+					item: "kubejs:cable"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "34146F31ED27F329"
+					item: "kubejs:concrete"
+					type: "item"
+				}
+			]
+			title: "HUB Upgrade 4"
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["492291E72E363978"]
+			description: [
+				"With the help of the Drill from &6Create&r you are able automate your mining of the Ressource Deposits."
+				""
+				"You will need to connect it to &9Kinetic Energy&r for it to begin working."
+				""
+				"{ \"text\": \"Building Shop\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"06CEF0371CA86B29\" }, \"color\": \"#FF55FF\" }"
+			]
+			icon: "kubejs:miner_mk.1"
+			id: "4A42B89B3C364322"
+			tasks: [
+				{
+					count: 75L
+					id: "7EC8CA983DBD8F97"
+					item: "kubejs:iron_rod"
+					type: "item"
+				}
+				{
+					count: 50L
+					id: "51B9AFED16C01CD4"
+					item: "kubejs:cable"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "10E491EE061214C6"
+					item: "kubejs:concrete"
+					type: "item"
+				}
+			]
+			title: "HUB Upgrade 5"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4A42B89B3C364322"]
+			description: [
+				"The last HUB Upgrade to start your journey."
+				""
+				"Here you gain access to the Biomass Burner to create power and most notably - the &0Space Elevator&r!"
+				"The Space Elevator is your central HUB to bring the Space Elevator Parts to."
+				""
+				"{ \"text\": \"Building Shop\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"06CEF0371CA86B29\" }, \"color\": \"#FF55FF\" }"
+			]
+			icon: "kubejs:space_elevator"
+			id: "6C9CE557624843F7"
+			tasks: [
+				{
+					count: 100L
+					id: "50111E87401AC1F3"
+					item: "kubejs:iron_plate"
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "67839D72E6DCC067"
+					item: "kubejs:iron_rod"
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "120E54DA69FB916F"
+					item: "kubejs:wire"
+					type: "item"
+				}
+				{
+					count: 50L
+					id: "09961E1914386D46"
+					item: "kubejs:concrete"
+					type: "item"
+				}
+			]
+			title: "HUB Upgrade 6"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["140DF78B84BEDD94"]
+			description: [
+				"Starting your factory needs ressources, for which I urge you to make artificial Ressource Deposits. These are made with Lava Gens at first, while later being interchangable and outclassed by Igneous Extruders."
+				""
+				"Check the recipes in &aJEI&r for the ores you need in order to progress."
+				""
+				"In the future it is recommended to automate these using Drills and Igneous Extruders."
+			]
+			id: "03CA4609FF96C7D0"
+			shape: "octagon"
+			size: 5.0d
+			tasks: [{
+				id: "580FA5911C713588"
+				type: "checkmark"
+			}]
+			title: "Make a Ressource Deposit"
+			x: 0.0d
+			y: -5.0d
+		}
+	]
+	title: "Base Stuff"
+}

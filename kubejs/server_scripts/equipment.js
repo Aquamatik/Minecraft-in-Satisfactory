@@ -1,0 +1,6 @@
+ServerEvents.recipes(e => {
+    e.recipes.extendedcrafting.shaped_table("kubejs:blade_runners",['         ','         ','         ','  aa aa  ','  aabaa  ','  aacaa  ',' aa   aa ',' aa   aa ',' cb   bc '],{a:'kubejs:silica',b:'kubejs:modular_frame',c:'kubejs:rotor'}).tier(4);
+    e.recipes.extendedcrafting.shaped_table("kubejs:chainsaw",['aaa      ','abba     ','abcba    ',' abcba   ','  abcba  ','   abcba ','   dabcbb','   dbdcdb','    dbbbb'],{a:'kubejs:screws',b:'kubejs:iron_rod',c:'kubejs:cable',d:'kubejs:reinforced_iron_plate'}).tier(4);
+    e.recipes.extendedcrafting.shaped_table("kubejs:xeno-zapper",['  aa     ','   aa    ','a aba    ','aabcb    ',' aabcb   ','    bcb  ','     bdb ','      bdc','       c '],{a:'kubejs:wire',b:'kubejs:cable',c:'kubejs:iron_rod',d:'kubejs:reinforced_iron_plate'}).tier(4);
+    e.recipes.extendedcrafting.shaped_table("kubejs:xeno-basher",['  a      ','  bc     ','abbc     ',' ccbc    ','   cbc   ','    cbd  ','     dbd ','      dbc','       cd'],{a:'kubejs:xeno-zapper',b:'kubejs:wire',c:'kubejs:iron_rod',d:'kubejs:modular_frame'}).tier(4);
+})

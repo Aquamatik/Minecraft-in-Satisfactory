@@ -1,0 +1,14 @@
+{
+  "type": "create_new_age:energising",
+  "energy_needed": 5000000,
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:diamonds"
+    }
+  ]
+}

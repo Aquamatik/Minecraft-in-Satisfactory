@@ -1,0 +1,47 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "5E346EC672D56429"
+	icon: "extendedcrafting:ultimate_singularity"
+	id: "5BC22A03FC0B1D6D"
+	images: [{
+		height: 5.0d
+		image: "create:block/palettes/stone_types/layered/deepslate_cut_layered"
+		rotation: 0.0d
+		width: 5.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"&2Hello!&r"
+			""
+			"My Name is &bAqua&r,"
+			"&4You&r are sent to an alien Planet to prepare it for &6FICSIT&r inhabitation. &5Pioneer #58306423&r is your callsign and the only name you will answer to."
+			""
+			"I am your &#FE73FFAI-Assistant&r for this task and will assist you throughout your completion."
+			""
+			"&6FICSIT&r counts on you and your efforts to prepare this planet!"
+		]
+		icon: "create:goggles"
+		id: "140DF78B84BEDD94"
+		rewards: [{
+			id: "5DD5191EFA2A1CAA"
+			type: "xp_levels"
+			xp_levels: 1
+		}]
+		shape: "octagon"
+		size: 3.0d
+		tasks: [{
+			id: "5046150D579C1240"
+			type: "checkmark"
+		}]
+		title: "Welcome"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Welcome"
+}

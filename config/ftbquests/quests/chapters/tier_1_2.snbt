@@ -1,0 +1,103 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	default_quest_size: 2.0d
+	filename: "tier_1_2"
+	group: "29804F0143952BC7"
+	icon: "kubejs:screws"
+	id: "0466D610F4D4ADF2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2F40CF6FF99C76A5"]
+			description: [
+				"Welcome to Tier 1 of the Milestones!"
+				""
+				"After completion of this quest you unlock Gold Barrels, which can store a bit more than your normal chests."
+			]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:copper_barrel"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			id: "3AC56CB729EE6453"
+			tasks: [
+				{
+					count: 300L
+					id: "3E4C58C1DBE44760"
+					item: { Count: 300, id: "kubejs:wire" }
+					type: "item"
+				}
+				{
+					count: 300L
+					id: "7C9C6B43617A513B"
+					item: { Count: 300, id: "kubejs:screws" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "426932DE272D8D79"
+					item: { Count: 100, id: "kubejs:iron_plate" }
+					type: "item"
+				}
+			]
+			title: "Field Research"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AC56CB729EE6453"]
+			description: [
+				"Finally Conveyor Splitters get unlocked."
+				""
+				"With them you are able to, as the name suggests, split items from one to multiple belts."
+			]
+			icon: "create:brass_tunnel"
+			id: "0C8DD6F5281ADD4D"
+			tasks: [
+				{
+					count: 150L
+					id: "61AB4E800FCB36F8"
+					item: { Count: 150, id: "kubejs:iron_plate" }
+					type: "item"
+				}
+				{
+					count: 150L
+					id: "2B659825F126E423"
+					item: { Count: 150, id: "kubejs:iron_rod" }
+					type: "item"
+				}
+				{
+					count: 300L
+					id: "2057A7D131E2BEE8"
+					item: { Count: 300, id: "kubejs:wire" }
+					type: "item"
+				}
+			]
+			title: "Logistics"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6C9CE557624843F7"]
+			description: [
+				"This Tier of Upgrades is pretty short. Normally building blocks would be unlocked, but in Minecraft we already are so privileged."
+				""
+				"But don't worry, the next ones are longer!"
+			]
+			id: "2F40CF6FF99C76A5"
+			tasks: [{
+				id: "3A2FB7CE03AFE9F4"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "Tier 1 Info"
+			x: 0.0d
+			y: -2.5d
+		}
+	]
+	title: "Tier 1"
+}

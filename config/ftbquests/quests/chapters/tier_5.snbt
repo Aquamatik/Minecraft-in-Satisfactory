@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_5"
+	group: "29804F0143952BC7"
+	icon: "kubejs:packaged_oil"
+	id: "7BCBA7F9AF3F054C"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 5"
+}

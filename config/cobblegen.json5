@@ -1,0 +1,85 @@
+{
+	"formatVersion": "1.0",
+	"cobbleGen": [
+		{
+			"id": "minecraft:cobblestone",
+			"weight": 100.0,
+		},
+	],
+	"stoneGen": [
+		{
+			"id": "minecraft:stone",
+			"weight": 100.0,
+		},
+	],
+	"basaltGen": [
+		{
+			"id": "minecraft:basalt",
+			"weight": 100.0,
+		},
+	],
+	"customGen": {
+		"cobbleGen": {
+			"minecraft:iron_ore": [
+				{
+					"id": "minecraft:iron_ore",
+					"weight":100,
+				}
+			]
+			"minecraft:coal_ore": [
+				{
+					"id": "minecraft:coal_ore",
+					"weight":100,
+				}
+			]
+			"minecraft:copper_ore": [
+				{
+					"id": "minecraft:copper_ore",
+					"weight":100,
+				}
+			]
+			"minecraft:nether_quartz_ore": [
+				{
+					"id": "minecraft:nether_quartz_ore",
+					"weight":100,
+				}
+			]
+			"create:limestone": [
+				{
+					"id": "kubejs:limestone_ore",
+					"weight":100,
+				}
+			]
+			"minecraft:gold_ore": [
+				{
+					"id": "kubejs:caterium_ore",
+					"weight":100,
+				}
+			]
+			"minecraft:end_stone": [
+				{
+					"id": "kubejs:sulfur_ore",
+					"weight":100,
+				}
+			]
+			"minecraft:diorite": [
+				{
+					"id": "kubejs:bauxite_ore",
+					"weight":100,
+				}
+			]
+			"minecraft:blackstone": [
+				{
+					"id": "kubejs:sam_ore",
+					"weight":100,
+				}
+			]
+			"minecraft:emerald_block": [
+				{
+					"id": "kubejs:uranium_ore",
+					"weight":100,
+				}
+			]
+		}
+	}
+}

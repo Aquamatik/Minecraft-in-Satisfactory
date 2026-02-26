@@ -1,0 +1,49 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:diamonds"
+  },
+  "loops": 5,
+  "results": [
+    {
+      "count": 1,
+      "item": "kubejs:dark_matter_crystal"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "amount": 1000,
+          "fluid": "kubejs:dark_matter_residue"
+        },
+        {
+          "item": "kubejs:incomplete_dark_matter_crystal"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_dark_matter_crystal"
+        }
+      ]
+    },
+    {
+      "type": "create_new_age:energising",
+      "energy_needed": 2000000,
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_dark_matter_crystal"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_dark_matter_crystal"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:incomplete_dark_matter_crystal"
+  }
+}

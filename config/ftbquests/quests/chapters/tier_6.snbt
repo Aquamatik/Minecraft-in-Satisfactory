@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_6"
+	group: "29804F0143952BC7"
+	icon: "kubejs:computer"
+	id: "449CABA37A606706"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 6"
+}

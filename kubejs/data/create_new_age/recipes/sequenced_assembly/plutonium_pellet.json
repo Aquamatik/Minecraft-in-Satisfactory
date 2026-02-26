@@ -1,0 +1,112 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:uranium_waste"
+  },
+  "loops": 24,
+  "results": [
+    {
+      "count": 1,
+      "item": "kubejs:plutonium_pellet"
+    }
+  ],
+  "sequence": [
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "kubejs:incomplete_plutonium_pellet"
+    },
+    {
+      "item": "kubejs:non-fissile_uranium"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:incomplete_plutonium_pellet"
+    }
+]
+    },
+    {
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "kubejs:incomplete_plutonium_pellet"
+    },
+    {
+      "item": "kubejs:non-fissile_uranium"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:incomplete_plutonium_pellet"
+    }
+]
+    },
+    {
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "kubejs:incomplete_plutonium_pellet"
+    },
+    {
+      "item": "kubejs:non-fissile_uranium"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:incomplete_plutonium_pellet"
+    }
+]
+    },
+    {
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "kubejs:incomplete_plutonium_pellet"
+    },
+    {
+      "item": "kubejs:non-fissile_uranium"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:incomplete_plutonium_pellet"
+    }
+]
+    },
+    {
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "kubejs:incomplete_plutonium_pellet"
+    },
+    {
+      "item": "kubejs:uranium_waste"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:incomplete_plutonium_pellet"
+    }
+]
+    },
+    {
+      "type": "create_new_age:energising",
+      "energy_needed": 208000,
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_plutonium_pellet"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_plutonium_pellet"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:incomplete_plutonium_pellet"
+  }
+}

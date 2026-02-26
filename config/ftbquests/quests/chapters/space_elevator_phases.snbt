@@ -1,0 +1,35 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "space_elevator_phases"
+	group: "7E69F5895CCB1121"
+	icon: "kubejs:space_elevator"
+	id: "6EB4FF4E96F3C006"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["140DF78B84BEDD94"]
+		description: [
+			"This is the Space Elevator!"
+			""
+			"It is your primary goal to craft and deliver the &bSpace Elevator Parts&r for completion of your assignment."
+			""
+			"Each completed Phase gives access to more and more Tiers to expand your factory."
+			""
+			"And remember,"
+			"&4The Factory MUST grow!&r"
+		]
+		icon: "kubejs:space_elevator"
+		id: "3E41D0F82433C6D9"
+		shape: "octagon"
+		size: 2.0d
+		tasks: [{
+			id: "034133E9FF4F7AF1"
+			type: "checkmark"
+		}]
+		title: "Space Elevator Phases"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Space Elevator Phases"
+}

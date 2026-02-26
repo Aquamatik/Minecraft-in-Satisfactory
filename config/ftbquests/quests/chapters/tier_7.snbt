@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_7"
+	group: "29804F0143952BC7"
+	icon: "kubejs:alclad_aluminum_sheet"
+	id: "5550F38C0346C6CB"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 7"
+}

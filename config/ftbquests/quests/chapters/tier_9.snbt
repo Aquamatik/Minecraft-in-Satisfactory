@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_9"
+	group: "29804F0143952BC7"
+	icon: "kubejs:ai_expansion_server"
+	id: "5BB759F737347B6A"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tier 9"
+}
