@@ -14,7 +14,7 @@
 			description: [
 				"Welcome to Tier 1 of the Milestones!"
 				""
-				"After completion of this quest you unlock Gold Barrels, which can store a bit more than your normal chests."
+				"After completion of this quest you unlock Copper Barrels, which can store a bit more than your normal chests."
 			]
 			icon: {
 				Count: 1
@@ -51,9 +51,9 @@
 		{
 			dependencies: ["3AC56CB729EE6453"]
 			description: [
-				"Finally Conveyor Splitters get unlocked."
+				"Finally Conveyor Splitters and Mergers get unlocked."
 				""
-				"With them you are able to, as the name suggests, split items from one to multiple belts."
+				"With them you are able to, as the name suggests, split or merge items from and to different belts."
 			]
 			icon: "create:brass_tunnel"
 			id: "0C8DD6F5281ADD4D"

@@ -235,6 +235,13 @@
     "curseForgeHash": 2646303899,
     "modrinthHash": "4b100de40338247a3fbf4d1fd1846257c5338189"
   },
+  "geckolib-forge-1.20.1-4.8.3.jar": {
+    "jarName": "geckolib-forge-1.20.1-4.8.3.jar",
+    "modId": "geckolib",
+    "version": "4.8.3",
+    "curseForgeHash": 4092514766,
+    "modrinthHash": "5428765c6c2e2135da6ee01f2f0478fa0db6aee7"
+  },
   "gpumemleakfix-1.20.1-1.8.jar": {
     "jarName": "gpumemleakfix-1.20.1-1.8.jar",
     "modId": "gpumemleakfix",
