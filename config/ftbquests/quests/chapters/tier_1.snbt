@@ -12,7 +12,7 @@
 		{
 			dependencies: ["03CA4609FF96C7D0"]
 			description: [
-				"With the help of the Equipment Workshop you are able to craft yourself better gear and helpful things."
+				"With the help of the Equipment Workshop you are able to craft yourself better gear and helpful things like Drills."
 				""
 				"By pressing on \"Building Shop\" below you are brought to the quest page to buy more of the following buildings."
 				""
@@ -134,9 +134,11 @@
 		{
 			dependencies: ["492291E72E363978"]
 			description: [
-				"With the help of the Drill from &6Create&r you are able automate your mining of the Ressource Deposits."
+				"With the help of the Miner MK.1 you are able automate your mining of the Ore Deposits."
 				""
-				"You will need to connect it to &9Kinetic Energy&r for it to begin working."
+				"You will need to connect it to &eFE&r for it to begin working."
+				""
+				"Also unlocks the golden barrel for storage."
 				""
 				"{ \"text\": \"Building Shop\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"06CEF0371CA86B29\" }, \"color\": \"#FF55FF\" }"
 			]
@@ -211,9 +213,7 @@
 		{
 			dependencies: ["140DF78B84BEDD94"]
 			description: [
-				"Starting your factory needs ressources, for which I urge you to make artificial Ressource Deposits. These are made with Lava Gens at first, while later being interchangable and outclassed by Igneous Extruders."
-				""
-				"Check the recipes in &aJEI&r for the ores you need in order to progress."
+				"Starting your factory needs ressources, for which you definetly make yourself some Ore Deposits."
 				""
 				"In the future it is recommended to automate these using Drills and Igneous Extruders."
 			]

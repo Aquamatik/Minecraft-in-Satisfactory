@@ -67,7 +67,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["06CEF0371CA86B29"]
+			dependencies: [
+				"06CEF0371CA86B29"
+				"4A42B89B3C364322"
+			]
 			icon: "kubejs:storage_container"
 			id: "11A6EB1F9160DAC0"
 			rewards: [{
@@ -106,11 +109,18 @@
 			]
 			icon: "kubejs:smelter"
 			id: "7114C7531B2AED11"
-			rewards: [{
-				id: "7B390A31296C7669"
-				item: "kubejs:smelter"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "56B8FC92994333AA"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "4098DD9150955268"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 8L
@@ -137,11 +147,18 @@
 			hide_lock_icon: true
 			icon: "kubejs:constructor"
 			id: "47C9CE375505C50B"
-			rewards: [{
-				id: "4C9645121171AAC9"
-				item: "kubejs:constructor"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0AE1222BDC28466D"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "5C8C288975569E4C"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 2L
@@ -161,30 +178,28 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["06CEF0371CA86B29"]
+			dependencies: [
+				"06CEF0371CA86B29"
+				"4A42B89B3C364322"
+			]
 			icon: "kubejs:miner_mk.1"
 			id: "0FDAE3532EE692C1"
 			rewards: [{
-				id: "2BAAF62E7B1E51E5"
-				item: "kubejs:miner_mk.1"
+				id: "616A98C6A6BC71D5"
+				item: "create:mechanical_drill"
 				type: "item"
 			}]
 			tasks: [
 				{
 					count: 10L
-					id: "3C1453F038112B18"
+					id: "3DA94D3606257843"
 					item: { Count: 10, id: "kubejs:iron_plate" }
 					type: "item"
 				}
 				{
 					count: 10L
-					id: "2BECE17B8DC57C45"
-					item: "kubejs:concrete"
-					type: "item"
-				}
-				{
-					id: "413150CF8926BCDC"
-					item: "kubejs:portable_miner"
+					id: "25C1BDD53E113BB8"
+					item: { Count: 10, id: "kubejs:concrete" }
 					type: "item"
 				}
 			]
@@ -200,8 +215,8 @@
 			icon: "kubejs:conveyor_belt_mk.1"
 			id: "0A2590DE1097C852"
 			rewards: [{
-				id: "7AA844394A2A72FB"
-				item: "kubejs:conveyor_belt_mk.1"
+				id: "5D6236CFD9C0B5B7"
+				item: "create:belt_connector"
 				type: "item"
 			}]
 			tasks: [{

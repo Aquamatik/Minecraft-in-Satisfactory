@@ -51,20 +51,20 @@
 		}
 		{
 			dependencies: ["2594AA82BDE121DD"]
-			description: ["This axe can be used to instantly mine entire trees. Kinda like a Chainsaw if you think about it."]
+			description: ["Unlocks a chainsaw that can be used to instantly mine entire trees. Also has infinite Durability."]
 			icon: {
 				Count: 1
-				id: "minecraft:netherite_axe"
+				id: "kubejs:chainsaw"
 				tag: {
 					Damage: 0
 				}
 			}
 			id: "465201EAE0DE6FA8"
 			rewards: [{
-				id: "39C88A04FC41BBD9"
+				id: "11F003613FE73B11"
 				item: {
 					Count: 1
-					id: "minecraft:netherite_axe"
+					id: "kubejs:chainsaw"
 					tag: {
 						Damage: 0
 						Unbreakable: 1
