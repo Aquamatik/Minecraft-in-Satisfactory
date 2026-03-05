@@ -263,12 +263,12 @@
     "curseForgeHash": 4234781540,
     "modrinthHash": "e2e60485a0c3efa72f1948c952b095150e3ba4fc"
   },
-  "immersive_optimization-forge-1.20.1-0.1.0.jar": {
-    "jarName": "immersive_optimization-forge-1.20.1-0.1.0.jar",
+  "immersive_optimization-forge-1.20.1-0.1.4.jar": {
+    "jarName": "immersive_optimization-forge-1.20.1-0.1.4.jar",
     "modId": "immersive_optimization",
-    "version": "0.1.0",
-    "curseForgeHash": 4155670972,
-    "modrinthHash": "58a2e199bf7992edb6ac765e7694be96cb53efde"
+    "version": "0.1.4",
+    "curseForgeHash": 890465338,
+    "modrinthHash": "c9922d12d6aa985c44a7dc1338ec4934caac7647"
   },
   "IronJetpacks-1.20.1-7.0.9.jar": {
     "jarName": "IronJetpacks-1.20.1-7.0.9.jar",
